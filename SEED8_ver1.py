@@ -3,8 +3,8 @@ import openai
 import os
 from googletrans import Translator
 
-# 환경 변수에서 OpenAI API 키 가져오기
-openai.api_key = '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'
+# OpenAI API 키 설정
+openai.api_key = st.secrets["openai"]["api_key"]
 
 # 경로 설정
 base_path = r'C:/Users/sohi9/OneDrive - 서울공항초등학교/8. SEED'
