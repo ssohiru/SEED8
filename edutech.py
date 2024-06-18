@@ -3,8 +3,8 @@ import pandas as pd
 
 def search_function():
     # 통합된 데이터 불러오기
-    file_path = '통합_에듀테크_정리.xlsx'
-    data = pd.read_excel(file_path, sheet_name='통합')
+    file_path = '통합_에듀테크_정리.xlsx
+    data = pd.read_excel(file_path)
 
     # Streamlit 어플리케이션
     st.title("에듀테크 수업 사례 검색기")
