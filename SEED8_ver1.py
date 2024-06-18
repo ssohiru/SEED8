@@ -3,7 +3,7 @@ import openai
 
 def seed_function():
     # OpenAI API 키 설정
-    openai.api_key = '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'
+    openai.api_key = st.secrets["openai"]["api_key"]
 
     # 세션 상태 초기화
     if 'token_usage' not in st.session_state:
